@@ -4,7 +4,7 @@ import  {app } from "./app.js";
 // import app  from "./app.js";
 
 dotenv.config({
-    path: './env'
+    path: './.env'
 });
 //-r dotenv/config --experimental-json-modules
 const startServer = async ()=>{
